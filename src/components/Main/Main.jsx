@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import { Grid, Divider, Card, CardHeader, CardContent, Typography } from '@material-ui/core';
+import { Grid,  Card, CardHeader, CardContent, Typography } from '@material-ui/core';
 
 import { ExpenseTrackerContext } from '../../context/context';
 import Form from './Form/Form';
@@ -15,10 +15,10 @@ const Main = () => {
             <CardHeader title="Expense Tracker"/>
             <CardContent>
                 <Typography align="center" variant="h5">Total Balance $ { balance }</Typography>
-                <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
+                {/* <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
                     Add Your Statement
                 </Typography>
-                <Divider />
+           */}
                 <Form />
             </CardContent>
             <CardContent className={classes.cardContent}>

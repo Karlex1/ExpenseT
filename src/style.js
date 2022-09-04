@@ -18,13 +18,13 @@ export default makeStyles((theme) => ({
   },
   last: {
     [theme.breakpoints.down('sm')]: {
-      marginBottom: theme.spacing(3),
+      marginBottom: theme.spacing(4),
       paddingBottom: '200px',
     },
   },
   grid: {
     '& > *': {
-      margin: theme.spacing(2),
+      margin: theme.spacing(1),
     },
   },
 }));
